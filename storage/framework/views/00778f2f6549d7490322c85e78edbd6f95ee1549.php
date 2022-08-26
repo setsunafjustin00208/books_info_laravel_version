@@ -1,10 +1,10 @@
     <script>
         $(document).ready(function () {
-            $('#book').DataTable();
+            $('#table').DataTable();
         });
     </script>
-    <div class="table-container container">
-        <table class="table" id="book">
+    <div class="table-container">
+        <table class="table" id="table">
              <?php echo e($slot); ?>
 
           </table>

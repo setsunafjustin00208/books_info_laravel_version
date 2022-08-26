@@ -7,7 +7,8 @@
                         <i class="fas fa-check-square"></i>
                 </span>
                 <span>
-                        <?php echo e(session('success')); ?>
+                    
+                        <?php echo e(session('remember_token')); ?>
 
                 </span>
         </div>
